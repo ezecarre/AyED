@@ -2,9 +2,7 @@
 
 using namespace std;
 
-int main() 
-{
-    
+int main() {
     double pi = 0.0;
     int terminosCalculados = 0;
     double precisionDeseada = 0.0000001;
@@ -16,7 +14,6 @@ int main()
         } else {
             pi -= termino;
         }
-
         terminosCalculados++;
         termino = 1.0 / (2 * terminosCalculados + 1);
     }
